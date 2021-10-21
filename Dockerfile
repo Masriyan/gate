@@ -1,4 +1,4 @@
-FROM ruby:2.7.3
+FROM ruby:2.7-slim
 
 RUN apt-get update
 RUN curl -sL https://deb.nodesource.com/setup_10.x | bash
