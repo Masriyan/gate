@@ -34,7 +34,7 @@ gem 'whenever', require: false
 
 group :development, :test do
   gem 'capybara'
-  gem 'coveralls'
+  gem 'coveralls', '>= 0.8.22'
   gem 'database_cleaner'
   gem 'dredd_hooks'
   gem 'factory_bot_rails'
@@ -46,8 +46,8 @@ group :development, :test do
   gem 'rubocop'
   gem 'rubocop-rspec'
   gem 'shoulda-matchers'
-  gem 'simplecov'
-  gem 'simplecov-console'
+  gem 'simplecov', '>= 0.16.1'
+  gem 'simplecov-console', '>= 0.4.2'
   gem 'timecop'
   gem 'webmock'
 end
