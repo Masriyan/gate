@@ -25,7 +25,7 @@ gem 'rotp'
 gem 'rqrcode', '~> 0.10.1'
 gem 'ruby-saml', '1.8.0'
 gem 'saml_idp', git: 'https://github.com/gate-sso/saml_idp'
-gem 'sass-rails'
+gem 'sass-rails', '>= 6.0.0'
 gem 'sdoc', group: :doc
 gem 'slim-rails'
 gem 'turbolinks'
