@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'activerecord-session_store'
 gem 'ansi', '~> 1.5.0'
-gem 'bootstrap', '~> 4.3.1'
+gem 'bootstrap', '~> 5.0.0'
 gem 'coffee-rails'
 gem 'countries', require: 'countries/global'
 gem 'devise', '~> 4.7.1'
