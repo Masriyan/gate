@@ -23,7 +23,7 @@ gem 'rails', '5.1.6.2'
 gem 'redis'
 gem 'rotp'
 gem 'rqrcode', '~> 0.10.1'
-gem 'ruby-saml', '1.8.0'
+gem 'ruby-saml', '1.12.3'
 gem 'saml_idp', git: 'https://github.com/gate-sso/saml_idp'
 gem 'sass-rails'
 gem 'sdoc', group: :doc

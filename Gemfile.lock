@@ -172,7 +172,7 @@ GEM
     mysql2 (0.4.10)
     newrelic_rpm (5.5.0.348)
     nio4r (2.3.1)
-    nokogiri (1.10.8)
+    nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
     oauth2 (1.4.1)
       faraday (>= 0.8, < 0.16.0)
@@ -249,6 +249,7 @@ GEM
     responders (3.0.0)
       actionpack (>= 5.0)
       railties (>= 5.0)
+    rexml (3.3.7)
     rotp (4.0.2)
       addressable (~> 2.5)
     rqrcode (0.10.1)
@@ -281,8 +282,9 @@ GEM
     rubocop-rspec (1.30.1)
       rubocop (>= 0.60.0)
     ruby-progressbar (1.10.0)
-    ruby-saml (1.8.0)
-      nokogiri (>= 1.5.10)
+    ruby-saml (1.12.3)
+      nokogiri (>= 1.10.5)
+      rexml
     safe_yaml (1.0.4)
     sass (3.7.2)
       sass-listen (~> 4.0.0)
@@ -414,7 +416,7 @@ DEPENDENCIES
   rspec-rails
   rubocop
   rubocop-rspec
-  ruby-saml (= 1.8.0)
+  ruby-saml (= 1.12.3)
   saml_idp!
   sass-rails
   sdoc
